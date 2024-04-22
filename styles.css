@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, main, footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding-top: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  backdrop-filter: blur(5px); /* Замъгляване на текста */
+}
+
+#section1 {
+  background-image: url(images/TATOIN.webp);
+}
+
+#section2 {
+  background-image: url(images/FOREST.webp);
+}
+
+#section3 {
+  background-image: url(images/DEATSTAR.webp);
+}
+
+footer {
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+}
+p {
+  padding: 10px 20px; /* Добавяме вътрешно разстояние за подобряване на четимостта */
+  background-color: rgba(255, 255, 255, 0.5); /* Прозрачен цвят на заден фон за замъглен ефект */
+  border-radius: 20px; /* Закръгляме ръбовете за по-мек вид */
+ 
+  font-style: italic;   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Добавяме лека сянка за да изглежда като прозорец */
+}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Добавяме малко разстояние под реда */
+}
+
+/* Промени в размера на снимките */
+.image-row img {
+  width: 30%; /* Процентно съотношение за по-малък размер */
+  border: 2px solid rgba(255, 255, 255, 0.9); /* Добавяме рамка */
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Разстояние между снимките */
+}
+
+.image-row figure {
+  flex: 1; /* Снимките да заемат равни дялове */
+}
+
+.image-row figure img {
+  width: 100%; /* Снимките да са 100% широчина */
+  height: auto; /* За запазване на съотношението на страни */
+  max-width: 200px; /* Максимална ширина на снимките */
+  display: block; /* За центриране на снимките */
+  margin: 0 auto; /* За центриране на снимките */
+}
+
+.image-row figure figcaption {
+  text-align: center; /* Центриране на надписите */
+}
+body {
+  background-image: url(images/SNIMKA3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+figcaption{
+  padding: 10px 20px; /* Добавяме вътрешно разстояние за подобряване на четимостта */
+  background-color: rgba(168, 77, 77, 0.392); /* Прозрачен цвят на заден фон за замъглен ефект */
+  border-radius: 20px; /* Закръгляме ръбовете за по-мек вид */
+   
+}
+#section1, #section2, #section3 {
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Цвят на рамката и прозрачност */
+  padding: 20px; /* Добавете padding за да не се залепва към текста */
+  border-radius: 20px; /* Добавете по-голямо число за по-заоблени рамки */
+}
+header h1,
+nav ul li a,
+h2 {
+    color: white; /* Задайте цвета на текста на заглавията в бяло */
+}
+nav ul li a {
+  font-family: "ITALIC", sans-serif; /* Пример за стандартен стил */
+}
+
+/* Стил 1: Arial */
+.nav-style1 ul li a {
+  font-family: Arial, sans-serif;
+}
+
+/* Стил 2: Times New Roman */
+.nav-style2 ul li a {
+  font-family: "Times New Roman", serif;
+}
+
+/* Стил 3: Courier New */
+.nav-style3 ul li a {
+  font-family: "Courier New", monospace;
+}
